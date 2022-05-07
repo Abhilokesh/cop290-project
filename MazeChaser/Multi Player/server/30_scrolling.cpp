@@ -1440,7 +1440,7 @@ int main( int argc, char* args[] )
 					energy = 300 - 0.01*(SDL_GetTicks() - startTime) + e1;
 				}
 				timeText.str( "" );
-				timeText << "Current score : " << score ;
+				timeText << "Kiddy Bank : " << score ;
 				timeText << " | Energy left : " << energy ;
 				
 				//Render text
